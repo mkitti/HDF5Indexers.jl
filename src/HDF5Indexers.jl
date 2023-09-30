@@ -45,7 +45,8 @@ module HDF5Indexers
     Base.iterate(h5idx::HDF5Indexer, state) = iterate(HDF5.attrs(parent(h5idx)), state)
 
     function Eyeball.getoptions(h5idx::HDF5Indexer)
-        k = Iterators.flatten((keys(h5idx), propertynames(h5idx)))
+        attr_icon = HDF5._tree_icon(HDF5.Attribute)
+        k = Iterators.flatten((attr_icon .* "  " .* keys(h5idx), propertynames(h5idx)))
         v = Iterators.flatten((values(h5idx), (getproperty(h5idx, pn) for pn in propertynames(h5idx))))
         return collect(zip(k, v))
     end
