@@ -1,3 +1,3 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-HDF5Indexer = "3783bf24-cb78-47ac-b384-57a6aae6bb03"
+HDF5Indexers = "3783bf24-cb78-47ac-b384-57a6aae6bb03"

@@ -1,7 +1,11 @@
-name = "HDF5Indexer"
+name = "HDF5Indexers"
 uuid = "3783bf24-cb78-47ac-b384-57a6aae6bb03"
 authors = ["Mark Kittisopikul <markkitt@gmail.com> and contributors"]
 version = "1.0.0-DEV"
+
+[deps]
+Eyeball = "ce36242b-ad83-4f84-8519-47cd8aeefd60"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 
 [compat]
 julia = "1"

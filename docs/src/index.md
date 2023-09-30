@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = HDF5Indexer
+CurrentModule = HDF5Indexers
 ```
 
 # HDF5Indexer
 
-Documentation for [HDF5Indexer](https://github.com/mkitti/HDF5Indexer.jl).
+Documentation for [HDF5Indexers](https://github.com/mkitti/HDF5Indexers.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [HDF5Indexer]
+Modules = [HDF5Indexers]
 ```
