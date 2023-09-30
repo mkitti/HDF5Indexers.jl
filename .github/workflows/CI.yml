@@ -58,6 +58,6 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using HDF5Indexer
-            DocMeta.setdocmeta!(HDF5Indexer, :DocTestSetup, :(using HDF5Indexer); recursive=true)
-            doctest(HDF5Indexer)'
+            using HDF5Indexers
+            DocMeta.setdocmeta!(HDF5Indexers, :DocTestSetup, :(using HDF5Indexers); recursive=true)
+            doctest(HDF5Indexers)'
